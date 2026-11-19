@@ -22,7 +22,7 @@ set.seed(42)
 
 ```{r}
 library(readr)
-heart <- read_csv("E:/university stuff/Applied Statical Analysis/Project/heart.csv", 
+heart <- read_csv("heart.csv", 
     col_types = cols(Sex = col_factor(levels = c("M", 
         "F")), ChestPainType = col_factor(levels = c("TA", 
         "ATA", "NAP", "ASY")), FastingBS = col_factor(levels = c("0", 
